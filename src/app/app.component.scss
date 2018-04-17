@@ -1,0 +1,26 @@
+:host{
+    display: block;
+    text-align: center;
+
+    >.nav{
+        padding: 15px;
+
+        >a{
+            display: inline-block;
+            margin: 0 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            border: 2px solid grey;
+
+            &:hover{
+                border-color: black;
+            }
+
+            &.active{
+                border-color: blue;
+            }
+        }
+    }
+}
